@@ -6,6 +6,15 @@
       "request": "attach",
       "name": "opencode (attach)",
       "url": "ws://localhost:6499/"
+    }, 
+    {
+      "type": "bun",
+      "request": "launch",
+      "name": "Debug Bun Script",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": true,
+      "watchMode": false
     }
   ]
 }
